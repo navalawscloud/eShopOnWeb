@@ -6,7 +6,7 @@ name: eShopOnWeb Build and Test
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: eshoponweb-naval
-  LOCATION: westeurope
+  LOCATION: eastasia
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: c2956815-0f62-4475-b6b1-9b533a6a9713
   WEBAPP-NAME: eshoponweb-webapp-naval
